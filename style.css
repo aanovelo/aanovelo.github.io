@@ -1,10 +1,10 @@
 p {
     text-align: center;
-    font-style: Arial;
 }
 
 img {
+    display: block;
     width: 100px;
     height: 100px;
-    text-align: center;
+    margin: 0 auto;
 }
