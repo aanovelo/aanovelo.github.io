@@ -1,33 +1,51 @@
 languages:
-  - item: JavaScript (ES6)
-  - item: TypeScript
-  - item: HTML
-  - item: CSS/Sass
   - item: Python
-  - item: SQL
+  - item: HTML
+  - item: CSS
+  - item: JavaScript
+  - item: C
+  - item: Java
   - item: R
+  - item: Assembly
+  - item: Dart
+  - item: SQL
+  - item: COBOL
+  - item: Prolog
+  - item: Scheme
+  - item: Erlang
+  - item: Rust
+  - item: C++
+  - item: VHDL
+
 
 frameworks:
-  - item: Ember & Glimmer
+  - item: Flutter
   - item: React
+  - item: Node.js
+  - item: Express
+  - item: Bootstrap
   - item: Jekyll
-  - item: Node
-  - item: D3
-  - item: Wordpress
-  - item: Timber
 
 tools:
-  - item: Bash
+  - item: RStudio
   - item: Git & Github
-  - item: Gulp & Grunt
+  - item: Bash  
+  - item: MongoDB  
   - item: Chrome DevTools
+  - item: MariaDB
+  - item: Yacc
+  - item: Bison
   - item: Postman
-  - item: MongoDB
+  - item: PostgreSQL
+  - item: JFLAP
+  - item: Wireshark
+  - item: Network Simulator
+  - item: Figma
+  - item: Knex
+  - item: LEGO Mindstorms
+  - item: Gulp 
 
 design:
-  - item: Sketch
-  - item: InDesign
-  - item: InVision
   - item: Prototyping
   - item: Wireframing
   - item: User Testing
