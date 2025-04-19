@@ -4,9 +4,9 @@
   "description": "Design-minded front-end software engineer focused on building beautiful interfaces and experiences",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bchiang7/bchiang7.github.io.git"
+    "url": "git+https://github.com/aanovelo/aanovelo.github.io.git"
   },
-  "homepage": "https://github.com/bchiang7/bchiang7.github.io",
+  "homepage": "https://github.com/aanovelo/aanovelo.github.io",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp serve --watch",
@@ -25,7 +25,7 @@
     "gulp-uglify": "3.0.2"
   },
   "bugs": {
-    "url": "https://github.com/bchiang7/bchiang7.github.io/issues"
+    "url": "https://github.com/aanovelo/aanovelo.github.io/issues"
   },
   "dependencies": {
     "gulp-sass": "^5.1.0",
