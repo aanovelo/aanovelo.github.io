@@ -1,0 +1,37 @@
+- name: Introduction to Cybersecurity by Cisco
+  credential: https://www.credly.com/badges/dad961b2-c00a-489d-9d00-35efe7d22c56/linked_in_profile
+  issue: March 25, 2025
+  skill:
+  - thing: Cyber Best Practices
+  - thing: Cybersecurity
+  - thing: Network Vulnerabilities
+  - thing: Privacy And Data Confidentiality
+  - thing: Threat Detection
+
+- name: Foundations of Cybersecurity by Google
+  credential: https://www.coursera.org/account/accomplishments/verify/AZKH9HUGYPMJ
+  issue: June 25, 2024
+  skill:
+  - thing: NIST Cybersecurity Framework (CSF)
+  - thing: Information Security (INFOSEC)
+  - thing: Cybersecurity
+  - thing: Historical Attacks
+  - thing: Ethics in cybersecurity
+
+- name: "Project-Based Learning: Build an AI Text Summarizer app"
+  credential: https://verify.skilljar.com/c/fb4yyifrj2rq
+  issue: June 21, 2024
+  skill:
+  - thing: API
+  - thing: Postman
+  - thing: Hugging Face
+  - thing: Replit
+
+- name: Postman API Fundamentals Student Expert
+  credential: https://badgr.com/public/assertions/zqvhotixQry-Wz37HPJA3w
+  issue: June 21, 2024
+  skill:
+  - thing: API
+  - thing: Testing
+  - thing: Scripting
+  - thing: Postman

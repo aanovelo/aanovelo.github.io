@@ -1,162 +1,94 @@
-- name: Surf Videos
-  url: https://github.com/bchiang7/Surf-Videos
-  code: https://github.com/bchiang7/Surf-Videos
-  description: Small React project created during an interview process to browse and search surf videos via the YouTube API.
-  used:
-    - thing: JavaScript
-    - thing: React
-    - thing: React Router
-    - thing: Axios
-    - thing: YouTube API
-
-- name: Halcyon Theme
-  url: https://bchiang7.github.io/halcyon-site/
-  code: https://github.com/bchiang7/halcyon-site
-  description: A minimal, dark theme for Sublime Text, Atom, VS Code, and more published to <a class="underline-link" href="https://packagecontrol.io/packages/Halcyon%20Theme">Package Control</a>, <a class="underline-link" href="https://atom.io/themes/halcyon-syntax">Atom Package Manager</a>, <a class="underline-link" href="https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode">Visual Studio Marketplace</a>, and <a class="underline-link" href="https://www.npmjs.com/package/hyper-halcyon-theme">NPM</a>.
-  used:
-    - thing: Gatsby
-    - thing: Sublime Text
-    - thing: Atom
-    - thing: VS Code
-    - thing: iTerm2
-    - thing: Hyper
-
-- name: Lonely Planet DBMS
-  url: https://github.com/bchiang7/CS3200-Project
-  code: https://github.com/bchiang7/CS3200-Project
-  description: Final project for my Database Design course at Northeastern. A simple web application that allows users to filter through a database containing Lonely Planet's <a class="underline-link" href="https://www.amazon.com/Lonely-Planets-Ultimate-Travel-Places/dp/1760342777" target="_blank">Top 500 Travel Destinations</a>. Users are able to add themselves as visitors as well as leave reviews of the destinations.
+- name: Context-Free Grammar Derivation
+  description:
+    - Developed a command-line tool that performs step-by-step derivation of strings based on user-defined grammar productions.
+    - Enabled input parsing via file or console with clear derivation output, assuming unambiguous grammars and valid strings.  
   used:
     - thing: Python
-    - thing: MySQL
-    - thing: Flask
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
 
-- name: myNEU Redesign
-  url: https://bchiang7.github.io/Redesign-myNEU/
-  code: https://github.com/bchiang7/Redesign-myNEU
-  description: myNEU student portal web prototype for my information science senior project. I conducted a study that aimed to answer the question of how myNEU can be improved to provide students at Northeastern with a better user experience. Informed by usability metrics gathered from user tests, I redesigned and developed a web prototype of myNEU.
-  used:
-    - thing: Jekyll
-    - thing: HTML
-    - thing: SCSS
-    - thing: JavaScript
-
-- name: Crowd DJ
-  url: https://github.com/crowddj/crowddj-react
-  code: https://github.com/crowddj/crowddj-react
+- name: Computer Architecture Simulation
   description:
-    A web app that allows people who are at a party or social gathering with a DJ to request songs via their smartphones. The web app allows people to see the currently playing song, request songs, upvote songs, and rate songs so the DJ can see how the crowd is feeling and act accordingly. In other words, Crowd DJ is essentially a crowdsourced music queue. <br>
-    <a class="small" href="http://projects.hackbeanpot.com/2017-projects.html">🏆 Won Best UI/UX Design at Hackbeanpot 2017 🏆</a>
+    - Designed and simulated combinational and sequential circuits using VHDL, including test benches for validating logic behavior.
+    - Evaluated instruction performance and system efficiency through CPI analysis, speedup computations, and execution time comparisons.
+    - Conducted benchmark testing to analyze real-world CPU performance, using emulator tools and hardware specification assessments.
   used:
-    - thing: React
-    - thing: Sass
-    - thing: Firebase
-    - thing: Spotify API
+    - thing: VHDL
+    - thing: GTKWave
+    - thing: Python
 
-- name: Weather Widget
-  url: http://quiet-dusk-89245.herokuapp.com/
-  code: https://github.com/bchiang7/DemoWebApp
-  description: A simple weather app I made at HubSpot's Fall 2016 Web App Workshop with Node.js, Express, and Heroku. I used the OpenWeatherMap API to get weather and forecast data, and then used the current city's coordinates to create a map background that reflected the current city using the Google Maps API.
-  img: weather
+- name: Networking Game
+  description: 
+    - Implemented real-time player interactions using Java sockets for seamless communication.
+    - Designed an interactive JavaFX UI, including splash screens, game scenes, and responsive controls.
+    - Engineered game state management for smooth transitions between menus and gameplay.
+    - Utilized multithreading to optimize network performance and ensure responsive gameplay.
+    - Structured event-driven logic for handling user input, animations, and game mechanics.
   used:
-    - thing: JavaScript
-    - thing: CSS
-    - thing: Node.js
-    - thing: Express
-    - thing: Heroku
-    - thing: OpenWeatherMap API
-    - thing: Google Maps API
+    - thing: Java
+    - thing: JavaFX
 
-# - name: ScreenTime 2.0
-#   url: https://play.google.com/store/apps/details?id=com.starry.management
-#   description: App-blocking feature on <a class="underline-link" href="https://starry.com/station" target="_blank">Starry Station</a> that provides functionality for users to easily filter content, pause the internet, and even create custom rules for blocking apps like Facebook and Twitter right from their mobile phones. Learn more about ScreenTime 2.0 on <a class="underline-link" href="https://www.producthunt.com/tech/screentime-for-starry-station" target="_blank">Product Hunt</a> and the <a class="underline-link" href="https://blog.starry.com/whats-new-screentime-just-got-better-for-parents/" target="_blank">Starry Blog</a>.
-#   used:
-#   - thing: JavaScript
-#   - thing: CSS
-#   - thing: Handlebars
-#   - thing: Backbone
-#   - thing: Marionette
-#   - thing: Cordova
-
-- name: Personal Website V2
-  url: https://bchiang7.github.io/v2
-  code: https://github.com/bchiang7/v2
-  description: Second iteration of my personal website. Designed and developed with a conscious effort to avoid using any superfluous frameworks like Bootstrap.
+- name: LOLCODE Programming Language Interpreter
+  description:
+    - Developed a LOLCODE interpreter with a lexical analyzer for efficient tokenization of LOLCODE syntax.
+    - Built a parser that constructs an abstract syntax tree (AST) to validate and process LOLCODE programs.
+    - Implemented execution logic for core LOLCODE constructs, including variable assignments, conditionals, loops, and arithmetic operations.
+    - Designed a modular architecture to support future scalability, such as user-defined functions and multi-threaded execution.
+    - Focused on optimizing performance while maintaining code readability and extensibility.
   used:
-    - thing: Jekyll
-    - thing: Handlebars
-    - thing: SCSS
-    - thing: JavaScript
-    - thing: Github Pages
+    - thing: Python
 
-- name: React Resume
-  url: https://bchiang7.github.io/react-profile/
-  code: https://github.com/bchiang7/react-profile/
-  description: An online version of my 2016 resume I made for fun. I was interested in learning React.js, so I found this <a class="underline-link" href="https://medium.com/learning-new-stuff/building-your-first-react-js-app-d53b0c98dc#.1439cdewq">simple tutorial</a> and it kind of spun into this weekend project. I probably didn't need to use React at all, but hey, at least I learned a few things!
-  used:
-    - thing: JavaScript
-    - thing: React
-    - thing: CSS
-
-- name: CourseSource
-  url: http://webdevspring2016-chiangbrittany.rhcloud.com/project/client/#/login
-  code: https://github.com/bchiang7/WebDevSpring2016/tree/master/public/project
-  description: A web application built on the MEAN (MongoDB, Express, Angular, Node) stack for my web development course at Northeastern. I created this web app with the intention of providing Northeastern Students a better experience browsing the courses offered at Northeastern.
+- name: Institute of Computer Science Clearance Approval System
+  description:
+    - Developed a full-stack institute clearance system using React for a dynamic frontend and a structured backend with controller-based architecture.
+    - Designed modular React components (sidebar, dashboard, form, navigation bar, request, summary) for improved UI maintainability.
+    - Implemented backend controllers (admin, authentication, request, students) to streamline user authentication and request processing.
   used:
     - thing: HTML
     - thing: CSS
     - thing: JavaScript
+    - thing: React
     - thing: Node.js
-    - thing: Angular
     - thing: Express
     - thing: MongoDB
 
-- name: NU Women in Tech
-  url: http://nuwit.ccs.neu.edu/
-  code: https://github.com/nuwit/website
-  description: Complete overhaul and redesign of NU Women in Tech's club website using Jekyll, built while serving as web chair on the e-board.
+- name: Budget Planner Project
+  description:
+    - Developed a terminal-based expense tracker in Python with MySQL integration, allowing users to manage friends, groups, and financial transactions efficiently.
+    - Implemented CRUD functionalities for expenses, friends, and groups, ensuring structured and accessible financial records.
+    - Designed a logging system to track outstanding balances and monthly expenses, improving financial transparency.
+    - Integrated a user authentication flow with balance tracking to personalize financial management.
   used:
-    - thing: Jekyll
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
-    - thing: Bootstrap
+    - thing: Python
+    - thing: MySQL
 
-- name: Fontipsums
-  url: https://bchiang7.github.io/fontipsums
-  code: https://github.com/bchiang7/fontipsums
-  description: As someone who has an eye for typography, I wanted a way to visually see different font combinations together. I whipped up this simple website to display some of my favorite pairings combined with some fun lorem ipsum variations I found on the web.
+- name: Mobile Health Monitoring System
+  description:
+    - Designed and implemented an admin dashboard with role-based access, enabling real-time monitoring and management of users across categorized health statuses.
+    - Developed an entrance monitoring system with QR code scanning, enabling real-time logging of student entries in Firebase for enhanced security and attendance tracking.
+    - Developed a health monitoring homepage with real-time Firebase integration, dynamic entry tracking, and historical log viewing.
+    - Developed a real-time student log monitoring system, enabling dynamic log retrieval, detailed student insights, and seamless navigation for entrance scanning.
   used:
-    - thing: HTML
-    - thing: SCSS
+    - thing: Flutter
+    - thing: Firebase
+    - thing: Dart
 
-- name: Personal Website V1
-  url: https://bchiang7.github.io/v1
-  code: https://github.com/bchiang7/website_2015/
-  description: My first portfolio website I designed and built in 2014. I learned quite a bit about HTML, CSS, and SEO. Since then, I think my web development and design skills have improved immensely.
+- name: Blog.io Game
+  description:
+    - Designed an Entity superclass managing movement, collisions, and state changes, enabling seamless interactions with food and other entities, while extending it to a Player with keyboard-controlled mechanics and adaptive growth, and an Enemy with autonomous movement and dynamic collision behaviors.
+    - Designed a SuperFood system using OOP, where Food increases size, Immunity provides temporary shielding, and Speed boosts movement for a limited time, enabling dynamic power-up mechanics in gameplay.
+    - Designed and implemented a TileManager class to handle world map rendering, tile-based collision detection, and dynamic player-relative map drawing
   used:
-    - thing: HTML
-    - thing: CSS
-    - thing: Bootstrap
-    - thing: JavaScript
-    - thing: jQuery
+    - thing: Java
+    - thing: JavaFX
 
-- name: One Card For All
-  url: http://onecardforall.org
-  description: MullenLowe's 2016 holiday site built around an algorithm that generates a holiday greeting to each and every person on the planet. As new names appear, visitors can watch them fall, like snowflakes, onto a stylized world map. Users can also find their own name and see it as part of the world collective. Check out this short <a class="underline-link" href="http://us.mullenlowe.com/work/one-card-for-all/" target="_blank">video</a> describing the project.
-  used:
-    - thing: HTML
-    - thing: SCSS
-    - thing: JavaScript
-    - thing: jQuery
-
-- name: JetBlue HumanKinda
-  url: https://us.mullenlowe.com/work/humankinda/
-  description: Tumblr site complementing JetBlue's HumanKinda campaign and documentary. The site houses the video documentary, many graphics created by Mullen for the campaign, and an interactive quiz to determine how "HumanKinda" you are. Learn more about this project <a class="underline-link" href="http://us.mullenlowe.com/work/humankinda/" target="_blank">here</a>.
+- name: Minesweeper Game
+  description:
+    - Developed adjustable board sizes (10x10, 16x16, 30x16) and an interactive UI.
+    - Implemented an optimized tile reveal system for uncovering empty spaces efficiently.
+    - Designed a flagging mechanism that limits placements based on remaining bombs, enhancing gameplay logic.
+    - Integrated local storage to allow users to save and resume game sessions.
+    - Utilized event listeners for real-time interactions, including left-click for digging, right-click for flagging, and board selection.
+    - Implemented a game-over detection system that reveals bomb locations and provides clear win/loss feedback.
   used:
     - thing: HTML
     - thing: CSS
     - thing: JavaScript
-    - thing: jQuery

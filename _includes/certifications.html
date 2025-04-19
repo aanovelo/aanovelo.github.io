@@ -1,0 +1,20 @@
+<section class="section certifications">
+    <div class="section__title">Certifications</div>
+    <div class="section__content">
+      {% for certification in site.data.certifications %}
+        <div class="certification">
+          <a href="{{ certification.credential }}" class="certification__name underline-link">
+            {{ certification.name }}
+          </a>
+          <div class="certification__credential">
+            <span class="certification__issue">{{ certification.issue }}</span>
+          </div>
+          <div class="certification__skill">
+            {% for item in certification.skill %}
+            <span class="certification__skill__item">{{item.thing}}</span>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </section>

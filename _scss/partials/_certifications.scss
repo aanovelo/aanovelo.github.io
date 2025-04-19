@@ -1,17 +1,15 @@
-.other-projects {
-  .project {
+.certifications {
+  .certification {
     max-width: 600px;
     margin-bottom: 50px;
     &__name {
-      margin-bottom: 10px;
       font-weight: 700;
     }
     p {
       font-size: 0.9rem;
       margin-bottom: 0px;
     }
-    &__used {
-      margin-top: 10px;
+    &__skill {
       &__item {
         display: inline-block;
         margin: 3px 3px 3px 0;

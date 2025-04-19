@@ -1,44 +1,39 @@
-- company: Upstatement
-  url: https://www.upstatement.com/
-  time: May 2018 - Present
-  position: Engineer
+- company: UPLB Ugnayan ng Pahinungod
+  url: https://www.facebook.com/uplbpahinungod
+  time: Mar 2023 - Present
+  position: Volunteer
+  activities:
+    - Reading Appreciation and Enhancement Program
+    - Volunteer Training Camp 
+    - NSTP Team Building Activity
+    - College Admission Test Simulation Exam
 
-- company: Scout
-  url: https://web.northeastern.edu/scout/
-  time: Jan - June 2018
-  position: Studio Developer
+- company: Kapatirang Pitong Lawa sa UP Los Baños
+  url: https://www.facebook.com/kapwasauplb
+  time: Mar 2022 - Present
+  position: Resident Member
+  activities:
+    - IRAYA College Admission Test Review
+    - GIMASCI Quiz Contest
+    - KAPWA sa UPLB Feb Fair
+    - Lugaw Day
+    - Volleyball Grand Prix
 
-- company: Apple Music
-  url: https://www.apple.com/music/
-  time: July - Dec 2017
-  position: UI Engineer Co-op
+- company: UPLB Street Jazz Dance Company
+  url: https://www.facebook.com/uplbSJDC
+  time: Oct 2022 - Present
+  position: Logistics Member
+  activities:
+    - Verve 7 Versus the Odds Dance Concert
+    - Dance Workshop
+    - Varsity Orientation
 
-- company: Scout
-  url: https://web.northeastern.edu/scout/
-  time: Jan - June 2017
-  position: Studio Developer
-
-- company: Starry
-  url: https://starry.com/
-  time: July - Dec 2016
-  position: Software Engineer Co-op
-
-- company: Northeastern University
-  url: http://www.ccis.northeastern.edu/
-  time: Jan - May 2016
-  position: HCI Teaching Assistant
-
-- company: NU Women in Tech
-  url: http://nuwit.ccs.neu.edu/
-  time: Jan 2016 - May 2017
-  position: President & Web Chair
-
-- company: MullenLowe U.S.
-  url: https://us.mullenlowe.com/
-  time: July - Dec 2015
-  position: Creative Technologist Co-op
-
-- company: Northeastern University
-  url: http://www.ccis.northeastern.edu/
-  time: Mar - May 2015
-  position: HCI Research Assistant
+- company: UPLB CAS Freshman Council
+  url: https://www.facebook.com/uplbcasfc
+  time: Nov 2021 - Oct 2022
+  position: External Affairs Co-Head
+  activities:
+    - CAS Freshman Bloc Assembly & Miting De Avance
+    - "CASta La Vista: Fun Being Fresh"
+    - "CASama, Kamusta ka na?: A Discussion on Mental Health"
+    - "CASinag: A Discussion on Student Leadership"
