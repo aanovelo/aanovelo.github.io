@@ -3,7 +3,7 @@
   <div class="section__content">
     {% for project in site.data.other-projects %}
     <div class="project">
-      <div class="project__name"> {{project.name}} </div>
+      <div class="project__name"><a href="{{project.repository}}" class="underline-link"> {{project.name}} </a>   </div>
       {% for implementation in project.description %}
         <p>{{implementation}}</p>
       {% endfor %}

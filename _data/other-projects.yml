@@ -1,4 +1,5 @@
 - name: Context-Free Grammar Derivation
+  repository: https://github.com/aanovelo/ll-parser 
   description:
     - Developed a command-line tool that performs step-by-step derivation of strings based on user-defined grammar productions.
     - Enabled input parsing via file or console with clear derivation output, assuming unambiguous grammars and valid strings.  
@@ -6,6 +7,7 @@
     - thing: Python
 
 - name: Computer Architecture Simulation
+  repository: https://github.com/aanovelo/motorhome-sensorset
   description:
     - Designed and simulated combinational and sequential circuits using VHDL, including test benches for validating logic behavior.
     - Evaluated instruction performance and system efficiency through CPI analysis, speedup computations, and execution time comparisons.
@@ -16,6 +18,7 @@
     - thing: Python
 
 - name: Networking Game
+  repository: https://github.com/aanovelo/networking-game
   description: 
     - Implemented real-time player interactions using Java sockets for seamless communication.
     - Designed an interactive JavaFX UI, including splash screens, game scenes, and responsive controls.
@@ -27,6 +30,7 @@
     - thing: JavaFX
 
 - name: LOLCODE Programming Language Interpreter
+  repository: https://github.com/aanovelo/lolcode-parser
   description:
     - Developed a LOLCODE interpreter with a lexical analyzer for efficient tokenization of LOLCODE syntax.
     - Built a parser that constructs an abstract syntax tree (AST) to validate and process LOLCODE programs.
@@ -37,6 +41,7 @@
     - thing: Python
 
 - name: Institute of Computer Science Clearance Approval System
+  repository: https://github.com/aanovelo/clearance-approval-system
   description:
     - Developed a full-stack institute clearance system using React for a dynamic frontend and a structured backend with controller-based architecture.
     - Designed modular React components (sidebar, dashboard, form, navigation bar, request, summary) for improved UI maintainability.
@@ -51,6 +56,7 @@
     - thing: MongoDB
 
 - name: Budget Planner Project
+  repository: https://github.com/aanovelo/budget-planner
   description:
     - Developed a terminal-based expense tracker in Python with MySQL integration, allowing users to manage friends, groups, and financial transactions efficiently.
     - Implemented CRUD functionalities for expenses, friends, and groups, ensuring structured and accessible financial records.
@@ -61,6 +67,7 @@
     - thing: MySQL
 
 - name: Mobile Health Monitoring System
+  repository: https://github.com/aanovelo/health-monitor-system
   description:
     - Designed and implemented an admin dashboard with role-based access, enabling real-time monitoring and management of users across categorized health statuses.
     - Developed an entrance monitoring system with QR code scanning, enabling real-time logging of student entries in Firebase for enhanced security and attendance tracking.
@@ -71,7 +78,8 @@
     - thing: Firebase
     - thing: Dart
 
-- name: Blog.io Game
+- name: Blob.io Game
+  repository: https://github.com/aanovelo/blob.io
   description:
     - Designed an Entity superclass managing movement, collisions, and state changes, enabling seamless interactions with food and other entities, while extending it to a Player with keyboard-controlled mechanics and adaptive growth, and an Enemy with autonomous movement and dynamic collision behaviors.
     - Designed a SuperFood system using OOP, where Food increases size, Immunity provides temporary shielding, and Speed boosts movement for a limited time, enabling dynamic power-up mechanics in gameplay.
@@ -81,6 +89,7 @@
     - thing: JavaFX
 
 - name: Minesweeper Game
+  repository: https://github.com/aanovelo/minesweeper
   description:
     - Developed adjustable board sizes (10x10, 16x16, 30x16) and an interactive UI.
     - Implemented an optimized tile reveal system for uncovering empty spaces efficiently.
