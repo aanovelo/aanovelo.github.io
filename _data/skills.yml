@@ -44,6 +44,10 @@ tools:
   - item: Knex
   - item: LEGO Mindstorms
   - item: Gulp 
+  - item: GitLab
+  - item: Google Cloud Platform
+  - item: Mocha
+  - item: Chai
 
 design:
   - item: Prototyping
